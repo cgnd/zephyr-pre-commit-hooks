@@ -1,0 +1,17 @@
+# SPDX-FileCopyrightText: 2023 Chris Wilson <chris@cgnd.dev>
+#
+# SPDX-License-Identifier: MIT
+
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v4.4.0
+  hooks:
+  - id: check-symlinks
+  - id: check-yaml
+  - id: end-of-file-fixer
+  - id: trailing-whitespace
+    args: [--markdown-linebreak-ext=md]
+- repo: https://github.com/fsfe/reuse-tool
+  rev: v1.1.2
+  hooks:
+  - id: reuse

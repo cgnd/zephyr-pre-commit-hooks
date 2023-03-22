@@ -1,0 +1,8 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: zephyr-pre-commit-hooks
+Upstream-Contact: Chris Wilson <chris@cgnd.dev>
+Source: https://github.com/cgnd/zephyr-pre-commit-hooks
+
+Files: README.md
+Copyright: 2023 Chris Wilson <chris@cgnd.dev>
+License: MIT
