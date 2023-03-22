@@ -3,9 +3,5 @@
 #
 # SPDX-License-Identifier: MIT
 
-set -e
-
-for file in "$@"
-do
-    "${ZEPHYR_BASE}"/scripts/checkpatch.pl -f "${file}"
-done
+set -e exec
+exec git diff --cached | "${ZEPHYR_BASE}"/scripts/checkpatch.pl -

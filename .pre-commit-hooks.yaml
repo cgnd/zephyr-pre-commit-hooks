@@ -8,3 +8,4 @@
   entry: run-checkpatch.sh
   language: script
   types: [c]
+  pass_filenames: false
