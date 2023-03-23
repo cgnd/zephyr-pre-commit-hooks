@@ -2,8 +2,8 @@
 #
 # SPDX-License-Identifier: MIT
 
-- id: checkpatch
-  name: run checkpatch.pl
+- id: zephyr-checkpatch
+  name: Run Zephyr's checkpatch.pl
   description: This hook runs the `${ZEPHYR_BASE}/scripts/checkpatch.pl` script on on C source files.
   entry: run-checkpatch.sh
   language: script
