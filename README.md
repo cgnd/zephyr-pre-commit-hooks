@@ -2,7 +2,7 @@
 
 A collection of pre-commit hooks for use with [Zephyr RTOS](https://github.com/zephyrproject-rtos/zephyr).
 
-Check out https://cgnd.dev/posts/enforce-zephyr-code-quality-pre-commit/ for a deep dive into using pre-commit with Zephyr.
+Check out https://cgnd.dev/posts/enforce-zephyr-code-quality-pre-commit/ for a deep dive into using pre-commit with Zephyr.
 
 ## Using zephyr-pre-commit-hooks with pre-commit
 
