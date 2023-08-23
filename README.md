@@ -11,7 +11,7 @@ Add this to your `.pre-commit-config.yaml`
 ```yaml
 repos:
   - repo: https://github.com/cgnd/zephyr-pre-commit-hooks
-    rev: v0.1.2 # Use the ref you want to point at
+    rev: v0.1.3 # Use the ref you want to point at
     hooks:
     - id: zephyr-checkpatch
 ```
