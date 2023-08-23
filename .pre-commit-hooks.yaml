@@ -1,10 +1,10 @@
 # SPDX-FileCopyrightText: 2023 Chris Wilson <chris@cgnd.dev>
 #
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: MIT OR Apache-2.0
 
-- id: zephyr-checkpatch
+- id: zephyr-checkpatch-diff
   name: Run Zephyr's checkpatch.pl
-  description: This hook runs the `${ZEPHYR_BASE}/scripts/checkpatch.pl` script on on C source files.
+  description: This hook runs the ${ZEPHYR_BASE}/scripts/checkpatch.pl script on any C source file changes staged in the git index.
   entry: bash -c 'git diff --cached | "${ZEPHYR_BASE}"/scripts/checkpatch.pl -' --
   language: system
   types: [c]

@@ -1,6 +1,6 @@
 # SPDX-FileCopyrightText: 2023 Chris Wilson <chris@cgnd.dev>
 #
-# SPDX-License-Identifier: MIT
+# SPDX-License-Identifier: MIT OR Apache-2.0
 
 repos:
 - repo: https://github.com/pre-commit/pre-commit-hooks
