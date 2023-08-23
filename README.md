@@ -18,9 +18,13 @@ repos:
 
 ## Hooks available
 
-### `checkpatch`
+### `zephyr-checkpatch`
 
-This hook runs the `${ZEPHYR_BASE}/scripts/checkpatch.pl` script on on C source files.
+This pre-commit hook runs the `${ZEPHYR_BASE}/scripts/checkpatch.pl` script *only* on any changes staged in the git index for the next commit (i.e. it only checks the output of `git diff --cached` and does NOT check entire files).
+
+> **Warning**
+>
+> Trying to run `checkpatch.pl` against all files in the repo using the command `pre-commit run --all-files` will NOT work. This is because running pre-commit on the output of `git diff` is not one of the supported pre-commit workflows–[it's intended to operate on files](https://github.com/pre-commit/pre-commit/issues/2574#issuecomment-1298483258).
 
 > **Note**
 >
