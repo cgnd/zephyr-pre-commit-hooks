@@ -1,7 +1,5 @@
 # zephyr-pre-commit-hooks
 
-[![REUSE status](https://api.reuse.software/badge/github.com/cgnd/zephyr-pre-commit-hooks)](https://api.reuse.software/info/github.com/cgnd/zephyr-pre-commit-hooks)
-
 A collection of pre-commit hooks for use with [Zephyr RTOS](https://github.com/zephyrproject-rtos/zephyr).
 
 Check out https://cgnd.dev/posts/enforce-zephyr-code-quality-pre-commit/ for a deep dive into using pre-commit in Zephyr applications.
@@ -37,6 +35,8 @@ Code, including source files and code samples (if any in the content), is dual-l
 Content, including documentation, is licensed under the [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) license, which gives you permission to use the content for almost any purpose (but does not grant you any trademark permissions), so long as you note the license and give credit.
 
 ### SPDX & REUSE Compliance
+
+[![REUSE status](https://api.reuse.software/badge/github.com/cgnd/zephyr-pre-commit-hooks)](https://api.reuse.software/info/github.com/cgnd/zephyr-pre-commit-hooks)
 
 This repository is compliant with version 3.0 of the [REUSE Specification](https://reuse.software/spec/).
 
