@@ -4,5 +4,5 @@ Upstream-Contact: Common Ground Electronics <https://cgnd.dev>
 Source: https://github.com/cgnd/zephyr-pre-commit-hooks
 
 Files: README.md
-Copyright: 2023 Common Ground Electronics <https://cgnd.dev>
+Copyright: Common Ground Electronics <https://cgnd.dev>
 License: CC-BY-4.0
